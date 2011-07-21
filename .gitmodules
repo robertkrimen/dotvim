@@ -25,3 +25,9 @@
 [submodule "bundle/vim-matchit"]
 	path = bundle/vim-matchit
 	url = https://github.com/mhz/vim-matchit.git
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = http://github.com/robertkrimen/vim-gnupg.git
+[submodule "bundle/git-wip"]
+	path = bundle/git-wip
+	url = http://github.com/robertkrimen/git-wip.git
