@@ -31,3 +31,6 @@
 [submodule "bundle/git-wip"]
 	path = bundle/git-wip
 	url = http://github.com/robertkrimen/git-wip.git
+[submodule "bundle/FuzzyFinder"]
+	path = bundle/FuzzyFinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
