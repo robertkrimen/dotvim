@@ -143,7 +143,7 @@ au BufNewFile,BufRead ?akefile* set noet ts=8 sw=8 sts=0
 au BufNewFile,BufRead *.Makefile* set noet ts=8 sw=8 sts=0
 au BufNewFile,BufRead GNUmakefile* set noet ts=8 sw=8 sts=0
 au FileType perl set makeprg=perl\ -c\ %
-au FileType javascript map <buffer> <leader>` :JSLintLight<cr>:cc<cr>
+au FileType javascript map <buffer> <leader>` :JSHint<cr>:cc<cr>
 
 function! ROKRBufLeave()
     if expand( '%' )
