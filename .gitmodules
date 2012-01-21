@@ -34,3 +34,6 @@
 [submodule "bundle/jshint.vim"]
 	path = bundle/jshint.vim
 	url = git://github.com/robertkrimen/jshint.vim.git
+[submodule "bundle/vim-fswitch"]
+	path = bundle/vim-fswitch
+	url = git://github.com/robertkrimen/vim-fswitch.git
