@@ -37,3 +37,6 @@
 [submodule "bundle/vim-fswitch"]
 	path = bundle/vim-fswitch
 	url = git://github.com/robertkrimen/vim-fswitch.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

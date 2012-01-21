@@ -107,10 +107,12 @@ noremap <leader>R :call ROKRReset()<cr>
 nmap <leader>vs :source $MYVIMRC<cr>
 nmap <leader>ve :e $MYVIMRC<cr>
 
+noremap <leader>a :FSHere<cr>
 noremap <leader>q :b#<cr>
 "noremap <C-w><C-w> :b#<cr>
 noremap <leader>w :FufBuffer<cr>
 noremap <leader>e :FufFile<cr>
+noremap <leader>3 :FufCoverageFile<cr>
 noremap <leader>r :FufTag<cr>
 "noremap <c-w><c-e> :BufExplorer<cr>
 "nmap \be :BufExplorer<cr>
@@ -125,6 +127,7 @@ noremap <leader><leader>w :write<cr>
 noremap <leader><leader>e :edit<cr>
 noremap <leader>l :redraw!<cr>
 noremap <leader>; :write<cr>
+noremap <leader>, m
 
 noremap <leader>] :cn<cr>
 noremap <leader>[ :cp<cr>
